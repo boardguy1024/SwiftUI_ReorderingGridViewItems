@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40EFBA5527214C78000C0436 /* SwiftUI_ReorderingGridViewItemsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFBA4227214C74000C0436 /* SwiftUI_ReorderingGridViewItemsApp.swift */; };
+		40EFBA5627214C78000C0436 /* SwiftUI_ReorderingGridViewItemsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFBA4227214C74000C0436 /* SwiftUI_ReorderingGridViewItemsApp.swift */; };
+		40EFBA5727214C78000C0436 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFBA4327214C74000C0436 /* ContentView.swift */; };
+		40EFBA5827214C78000C0436 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFBA4327214C74000C0436 /* ContentView.swift */; };
+		40EFBA5927214C78000C0436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EFBA4427214C78000C0436 /* Assets.xcassets */; };
+		40EFBA5A27214C78000C0436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EFBA4427214C78000C0436 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40EFBA4227214C74000C0436 /* SwiftUI_ReorderingGridViewItemsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_ReorderingGridViewItemsApp.swift; sourceTree = "<group>"; };
+		40EFBA4327214C74000C0436 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		40EFBA4427214C78000C0436 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40EFBA4927214C78000C0436 /* SwiftUI_ReorderingGridViewItems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_ReorderingGridViewItems.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EFBA4C27214C78000C0436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40EFBA5127214C78000C0436 /* SwiftUI_ReorderingGridViewItems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_ReorderingGridViewItems.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40EFBA5327214C78000C0436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40EFBA5427214C78000C0436 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40EFBA4627214C78000C0436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EFBA4E27214C78000C0436 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40EFBA3C27214C74000C0436 = {
+			isa = PBXGroup;
+			children = (
+				40EFBA4127214C74000C0436 /* Shared */,
+				40EFBA4B27214C78000C0436 /* iOS */,
+				40EFBA5227214C78000C0436 /* macOS */,
+				40EFBA4A27214C78000C0436 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40EFBA4127214C74000C0436 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				40EFBA4227214C74000C0436 /* SwiftUI_ReorderingGridViewItemsApp.swift */,
+				40EFBA4327214C74000C0436 /* ContentView.swift */,
+				40EFBA4427214C78000C0436 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		40EFBA4A27214C78000C0436 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40EFBA4927214C78000C0436 /* SwiftUI_ReorderingGridViewItems.app */,
+				40EFBA5127214C78000C0436 /* SwiftUI_ReorderingGridViewItems.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40EFBA4B27214C78000C0436 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40EFBA4C27214C78000C0436 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		40EFBA5227214C78000C0436 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				40EFBA5327214C78000C0436 /* Info.plist */,
+				40EFBA5427214C78000C0436 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40EFBA4827214C78000C0436 /* SwiftUI_ReorderingGridViewItems (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EFBA5D27214C78000C0436 /* Build configuration list for PBXNativeTarget "SwiftUI_ReorderingGridViewItems (iOS)" */;
+			buildPhases = (
+				40EFBA4527214C78000C0436 /* Sources */,
+				40EFBA4627214C78000C0436 /* Frameworks */,
+				40EFBA4727214C78000C0436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI_ReorderingGridViewItems (iOS)";
+			productName = "SwiftUI_ReorderingGridViewItems (iOS)";
+			productReference = 40EFBA4927214C78000C0436 /* SwiftUI_ReorderingGridViewItems.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40EFBA5027214C78000C0436 /* SwiftUI_ReorderingGridViewItems (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40EFBA6027214C78000C0436 /* Build configuration list for PBXNativeTarget "SwiftUI_ReorderingGridViewItems (macOS)" */;
+			buildPhases = (
+				40EFBA4D27214C78000C0436 /* Sources */,
+				40EFBA4E27214C78000C0436 /* Frameworks */,
+				40EFBA4F27214C78000C0436 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI_ReorderingGridViewItems (macOS)";
+			productName = "SwiftUI_ReorderingGridViewItems (macOS)";
+			productReference = 40EFBA5127214C78000C0436 /* SwiftUI_ReorderingGridViewItems.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40EFBA3D27214C74000C0436 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					40EFBA4827214C78000C0436 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					40EFBA5027214C78000C0436 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 40EFBA4027214C74000C0436 /* Build configuration list for PBXProject "SwiftUI_ReorderingGridViewItems" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40EFBA3C27214C74000C0436;
+			productRefGroup = 40EFBA4A27214C78000C0436 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40EFBA4827214C78000C0436 /* SwiftUI_ReorderingGridViewItems (iOS) */,
+				40EFBA5027214C78000C0436 /* SwiftUI_ReorderingGridViewItems (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40EFBA4727214C78000C0436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EFBA5927214C78000C0436 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EFBA4F27214C78000C0436 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EFBA5A27214C78000C0436 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40EFBA4527214C78000C0436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EFBA5727214C78000C0436 /* ContentView.swift in Sources */,
+				40EFBA5527214C78000C0436 /* SwiftUI_ReorderingGridViewItemsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40EFBA4D27214C78000C0436 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40EFBA5827214C78000C0436 /* ContentView.swift in Sources */,
+				40EFBA5627214C78000C0436 /* SwiftUI_ReorderingGridViewItemsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40EFBA5B27214C78000C0436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40EFBA5C27214C78000C0436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		40EFBA5E27214C78000C0436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82KTHK2F8A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boardguy1024.SwiftUI-ReorderingGridViewItems";
+				PRODUCT_NAME = SwiftUI_ReorderingGridViewItems;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40EFBA5F27214C78000C0436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82KTHK2F8A;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boardguy1024.SwiftUI-ReorderingGridViewItems";
+				PRODUCT_NAME = SwiftUI_ReorderingGridViewItems;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40EFBA6127214C78000C0436 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 82KTHK2F8A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boardguy1024.SwiftUI-ReorderingGridViewItems";
+				PRODUCT_NAME = SwiftUI_ReorderingGridViewItems;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		40EFBA6227214C78000C0436 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 82KTHK2F8A;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.boardguy1024.SwiftUI-ReorderingGridViewItems";
+				PRODUCT_NAME = SwiftUI_ReorderingGridViewItems;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40EFBA4027214C74000C0436 /* Build configuration list for PBXProject "SwiftUI_ReorderingGridViewItems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EFBA5B27214C78000C0436 /* Debug */,
+				40EFBA5C27214C78000C0436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EFBA5D27214C78000C0436 /* Build configuration list for PBXNativeTarget "SwiftUI_ReorderingGridViewItems (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EFBA5E27214C78000C0436 /* Debug */,
+				40EFBA5F27214C78000C0436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40EFBA6027214C78000C0436 /* Build configuration list for PBXNativeTarget "SwiftUI_ReorderingGridViewItems (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40EFBA6127214C78000C0436 /* Debug */,
+				40EFBA6227214C78000C0436 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40EFBA3D27214C74000C0436 /* Project object */;
+}
