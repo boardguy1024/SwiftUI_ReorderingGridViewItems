@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6B4270C5-8C9C-4AA0-919D-F9FE0F5A584A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EAA0F281-6383-48B9-879D-C381B23A7419"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Shared/ViewModel/DropViewDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "dropEntered(info:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EAA0F281-6383-48B9-879D-C381B23A7419 - 5002e669ae04b546"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUI_ReorderingGridViewItems.DropViewDelegate.dropEntered(info: SwiftUI.DropInfo) -&gt; ()"
+                  moduleName = "SwiftUI_ReorderingGridViewItems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/parkkyungseok/xcode-swiftui/Samples/SwiftUI_ReorderingGridViewItems/Shared/ViewModel/DropViewDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "708">
+               </Location>
+               <Location
+                  uuid = "EAA0F281-6383-48B9-879D-C381B23A7419 - e7d2341452802421"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (SwiftUI_ReorderingGridViewItems.Page) -&gt; Swift.Bool in SwiftUI_ReorderingGridViewItems.DropViewDelegate.dropEntered(info: SwiftUI.DropInfo) -&gt; ()"
+                  moduleName = "SwiftUI_ReorderingGridViewItems"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/parkkyungseok/xcode-swiftui/Samples/SwiftUI_ReorderingGridViewItems/Shared/ViewModel/DropViewDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

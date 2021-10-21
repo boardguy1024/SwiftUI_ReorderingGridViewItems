@@ -13,6 +13,11 @@
 		40EFBA5827214C78000C0436 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFBA4327214C74000C0436 /* ContentView.swift */; };
 		40EFBA5927214C78000C0436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EFBA4427214C78000C0436 /* Assets.xcassets */; };
 		40EFBA5A27214C78000C0436 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40EFBA4427214C78000C0436 /* Assets.xcassets */; };
+		40EFBA6927214D44000C0436 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFBA6827214D44000C0436 /* Page.swift */; };
+		40EFBA6D27214E01000C0436 /* PageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFBA6C27214E01000C0436 /* PageViewModel.swift */; };
+		40EFBA7127214E3F000C0436 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFBA7027214E3F000C0436 /* Home.swift */; };
+		40EFBA752721588D000C0436 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFBA742721588D000C0436 /* WebView.swift */; };
+		40EFBA7927215CCB000C0436 /* DropViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EFBA7827215CCB000C0436 /* DropViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		40EFBA5127214C78000C0436 /* SwiftUI_ReorderingGridViewItems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_ReorderingGridViewItems.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40EFBA5327214C78000C0436 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40EFBA5427214C78000C0436 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		40EFBA6827214D44000C0436 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		40EFBA6C27214E01000C0436 /* PageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewModel.swift; sourceTree = "<group>"; };
+		40EFBA7027214E3F000C0436 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		40EFBA742721588D000C0436 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		40EFBA7827215CCB000C0436 /* DropViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropViewDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +67,9 @@
 		40EFBA4127214C74000C0436 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				40EFBA6727214D2B000C0436 /* Model */,
+				40EFBA6627214D25000C0436 /* ViewModel */,
+				40EFBA6527214D20000C0436 /* View */,
 				40EFBA4227214C74000C0436 /* SwiftUI_ReorderingGridViewItemsApp.swift */,
 				40EFBA4327214C74000C0436 /* ContentView.swift */,
 				40EFBA4427214C78000C0436 /* Assets.xcassets */,
@@ -88,6 +101,32 @@
 				40EFBA5427214C78000C0436 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		40EFBA6527214D20000C0436 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				40EFBA7027214E3F000C0436 /* Home.swift */,
+				40EFBA742721588D000C0436 /* WebView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		40EFBA6627214D25000C0436 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				40EFBA6C27214E01000C0436 /* PageViewModel.swift */,
+				40EFBA7827215CCB000C0436 /* DropViewDelegate.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		40EFBA6727214D2B000C0436 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40EFBA6827214D44000C0436 /* Page.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +228,11 @@
 			files = (
 				40EFBA5727214C78000C0436 /* ContentView.swift in Sources */,
 				40EFBA5527214C78000C0436 /* SwiftUI_ReorderingGridViewItemsApp.swift in Sources */,
+				40EFBA7927215CCB000C0436 /* DropViewDelegate.swift in Sources */,
+				40EFBA7127214E3F000C0436 /* Home.swift in Sources */,
+				40EFBA752721588D000C0436 /* WebView.swift in Sources */,
+				40EFBA6927214D44000C0436 /* Page.swift in Sources */,
+				40EFBA6D27214E01000C0436 /* PageViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
